@@ -1,0 +1,32 @@
+.board-container {
+  display: flex;
+  gap: 20px;
+  height: calc(100vh - 150px);
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.board-column {
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.column-header {
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.header-icon {
+  margin-right: 5px;
+}
